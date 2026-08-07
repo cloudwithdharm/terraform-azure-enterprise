@@ -3,11 +3,11 @@ output "resource_group_name" {
 }
 
 output "storage_account_name" {
-  value = azurerm_storage_account.storage.name
+  value = azurerm_storage_account.stgs.name
 }
 
 output "storage_account_id" {
-  value = azurerm_storage_account.storage.id
+  value = azurerm_storage_account.stgs.id
 }
 output "storage_container_name" {
   value = azurerm_storage_container.container.name
